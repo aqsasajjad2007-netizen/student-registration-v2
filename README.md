@@ -41,7 +41,7 @@ Through this project, I practiced:
 
 ## 🚀 Live Demo
 
-[View Live Project](https://aqsasajjad.github.io/student-registration-form/)
+[View Live Project]http://127.0.0.1:5500/index.html
 
 ## 👩‍💻 Author
 
