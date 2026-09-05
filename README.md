@@ -40,8 +40,7 @@ Through this project, I practiced:
 - Basic responsive design
 
 ## 🚀 Live Demo
-
-[View Live Project](https://aqsa123.github.io/student-registration-v2/)
+[View Live Project](https://aqsasajjad2007-netizen.github.io/student-registration-v2/)
 
 ## 👩‍💻 Author
 
