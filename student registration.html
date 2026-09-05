@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="#">
+<h1>Student Registration Form</h1>
+<fieldset><legend>
+    Student Information</legend>
+
+    <label for="student-pic">Upload Profile Picture:</label>
+<input type="file" id="student-pic" name="profile_pic" accept="image">
+
+
+
+    <label for="name">Name:</label>
+ <input type="text"  id="name" placeholder="Sara" required >
+
+
+ <label for="father name">Father Name:</label>
+ <input type="text"  id="father-name" required >
+
+
+  <label  for="email">Email(required):</label>
+ <input  type="email"  id="email" placeholder="sara123@gmail.com" required >
+
+
+ <label for="number">Number:</label>
+ <input id="phone" type="tel" placeholder="03XXXXXXXXX" >
+
+
+  <label for="gender">Gender:</label>
+ <label>
+    <input type="radio" name="gender" value="Male">Male</label>
+<label>
+    <input type="radio" name="gender" value="Female"> Female</label>
+
+
+ <label for="birth">DOB:</label>
+<input type="date" id="birth" name="dob">
+
+
+<label for="department">Department:</label>
+<select id="department" name="department">
+<option value="CS">CS</option>
+<option value="SE">SE</option>
+<option value="CE">CE</option>
+<option value="AI">AI</option>
+<option value="DS">DS</option></select>
+
+
+<label for="semester">Semester:</label>
+<select id="semester" name="semester">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option></select>
+
+
+<label for="password">Password:</label>
+ <input id="password" type="password" required >
+
+
+
+<label for="registration number">Registration number:</label>
+ <input id="registration-number" type="text" required >
+
+
+
+<label for="country">Country:</label>
+<select id="country" name="country">
+<option value="Pakistan">Pakistan</option>
+<option value="America">America</option>
+<option value="China">China</option>
+<option value="India">India</option>
+<option value="Bangladesh">Bangladesh</option>
+</select>
+
+
+<p>Select your hobbies</p>
+<label for="hobby-reading">
+<input type="checkbox" id="hobby-reading" name="hobby" value="reading">
+Reading</label>
+
+<label  for="hobby-travelling">
+<input type="checkbox" id="hobby-travelling" name="hobby" value="travelling">
+Travelling</label>
+
+<label for="hobby-coding">
+<input type="checkbox" id="hobby-coding" name="hobby" value="coding">
+Coding</label>
+
+<label for="hobby-movie">
+<input type="checkbox" id="hobby-movies" name="hobby" value="watching movies">
+Watching Movies</label>
+
+
+<label for="address">Address:</label>
+<textarea id="address" name="address" placeholder="Your address"></textarea>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</fieldset>
+</form>
+</body>
+</html>
