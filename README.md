@@ -47,4 +47,4 @@ Through this project, I practiced:
 
 Aqsa
 
-This project is part of my journey to becoming a front-end developer.
+This project is part of my journey of becoming a front-end developer.
